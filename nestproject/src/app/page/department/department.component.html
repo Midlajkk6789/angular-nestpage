@@ -1,0 +1,22 @@
+<br>
+      
+
+<div class="container col-xxl-8 px-4 py-5 mt-5">
+  <h1 ><strong>Departments</strong></h1>
+  
+  <div class="row">
+@for (item of Department; track item.id) {
+      <div class="col"><div class="card" style="width: 20rem;">
+          <img src="{{item.img}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="./healthcare.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+}
+  </div>
+  <br>
+  
+</div>
+<br>
